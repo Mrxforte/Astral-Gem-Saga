@@ -1,0 +1,6 @@
+{
+  "name": "Magic Match Quest",
+  "description": "Commercial-grade Match-3 puzzle adventure game featuring magical gems, explosive combos, hundreds of levels, worlds, and quests.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow Circle -->
+    <path
+        android:pathData="M54,26 C69.46,26 82,38.54 82,54 C82,69.46 69.46,82 54,82 C38.54,82 26,69.46 26,54 C26,38.54 38.54,26 54,26 Z"
+        android:fillColor="#40FFD700" />
+
+    <!-- Gem Outer Shape / Shadow -->
+    <path
+        android:pathData="M54,28 L78,44 L69,78 L39,78 L30,44 Z"
+        android:fillColor="#1A0033" />
+
+    <!-- Gem Main Body -->
+    <path
+        android:pathData="M54,30 L76,45 L67,76 L41,76 L32,45 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="30"
+                android:endX="76"
+                android:endY="76"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF007A" />
+                <item android:offset="0.5" android:color="#7928CA" />
+                <item android:offset="1.0" android:color="#00DFD8" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Top Crown Facet -->
+    <path
+        android:pathData="M54,30 L66,45 L42,45 Z"
+        android:fillColor="#80FFFFFF" />
+
+    <!-- Left Crown Facet -->
+    <path
+        android:pathData="M32,45 L42,45 L54,30 Z"
+        android:fillColor="#60FFFFFF" />
+
+    <!-- Right Crown Facet -->
+    <path
+        android:pathData="M76,45 L66,45 L54,30 Z"
+        android:fillColor="#40FFFFFF" />
+
+    <!-- Center Pavilion Facet -->
+    <path
+        android:pathData="M42,45 L66,45 L54,76 Z"
+        android:fillColor="#30FFFFFF" />
+
+    <!-- Left Pavilion Facet -->
+    <path
+        android:pathData="M32,45 L42,45 L41,76 L54,76 Z"
+        android:fillColor="#20000000" />
+
+    <!-- Right Pavilion Facet -->
+    <path
+        android:pathData="M76,45 L66,45 L67,76 L54,76 Z"
+        android:fillColor="#40000000" />
+
+    <!-- Sparkle 1 Top Right -->
+    <path
+        android:pathData="M78,28 Q81,34 87,35 Q81,36 78,42 Q75,36 69,35 Q75,34 78,28 Z"
+        android:fillColor="#FFF685" />
+
+    <!-- Sparkle 2 Bottom Left -->
+    <path
+        android:pathData="M27,65 Q29,70 34,71 Q29,72 27,77 Q25,72 20,71 Q25,70 27,65 Z"
+        android:fillColor="#FFF685" />
+
+    <!-- Sparkle 3 Tiny -->
+    <path
+        android:pathData="M38,26 Q39,29 42,30 Q39,31 38,34 Q37,31 34,30 Q37,29 38,26 Z"
+        android:fillColor="#FFFFFF" />
+</vector>
